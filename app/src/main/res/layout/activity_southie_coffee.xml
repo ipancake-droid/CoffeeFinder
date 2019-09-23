@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SouthieCoffee">
+
+    <TextView
+        android:id="@+id/txtSouthieCoffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="524dp"
+        android:text="@string/txtSouthieCoffee"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="@android:dimen/thumbnail_height"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="282dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSouthieCoffee"
+        app:srcCompat="@drawable/southiecoffee" />
+
+    <TextView
+        android:id="@+id/southieAddress"
+        android:layout_width="227dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="187dp"
+        android:text="@string/southieAddress"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

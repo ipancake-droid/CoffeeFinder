@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coffee Finder</string>
+    <string name="txtStarbucks">Starbucks</string>
+    <string name="starbucksAddress">2195 Gulf to Bay Blvd, Clearwater, FL 33765</string>
+    <string name="imgStarbucks">Image of Starbucks</string>
+    <string name="txtGrindHouseCoffee">Grind House Coffee</string>
+    <string name="ghcAddress">432 Cleveland St Suite E, Clearwater, FL 33755</string>
+    <string name="imgGHC">Image of Grind House Coffee</string>
+    <string name="txtBarefoot">Barefoot Beach House</string>
+    <string name="barefootAddress">332 S Gulfview Blvd, Clearwater, FL 33767</string>
+    <string name="imgBarefoot">Image of Barefoot Beach House</string>
+    <string name="txtSouthieCoffee">Southie Coffee</string>
+    <string name="southieAddress">1500 S Missouri Ave, Clearwater, FL 33756</string>
+    <string name="imgSouthieCoffee">Image of Southie Coffee</string>
+</resources>
